@@ -1,0 +1,25 @@
+.l-newslatter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 0;
+    
+    padding: 3.75rem calc((100% - 60rem) / 2);
+    background-color: var(--color-gray-four);
+}
+
+.l-newslatter .c-card-text {
+    flex: 1 1 16.25rem;
+
+    margin: 0 0.625rem;
+}
+
+.l-newslatter .c-card-text .c-title {
+    color: var(--color-gray-two);
+}
+
+.l-newslatter .c-form {
+    flex: 2 1 16.25rem;
+    align-self: center;
+
+    margin: 0 0.625rem;
+}

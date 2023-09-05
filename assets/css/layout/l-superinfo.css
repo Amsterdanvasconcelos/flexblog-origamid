@@ -1,0 +1,25 @@
+.l-superinfo {
+    background-color: var(--color-dark-blue);
+}
+
+.l-superinfo__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    
+    padding: 0.625rem;
+    margin: 0 auto;
+    max-width: 60rem;
+
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.l-superinfo__content,
+.l-superinfo__content a {
+    color: var(--color-white);
+}

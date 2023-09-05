@@ -1,0 +1,14 @@
+.c-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.c-card-text__description {
+    color: var(--color-gray-two);
+    font-family: var(--font-main);
+    font-size: 1.25rem;
+    font-weight: 600;
+    /* text-align: justify; */
+    line-height: 1.4;
+}

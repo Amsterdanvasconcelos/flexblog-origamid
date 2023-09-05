@@ -1,0 +1,11 @@
+.c-title {
+    color: var(--color-gray-one);
+    font-family: var(--font-main);    
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.c-title--gray-light {
+    color: var(--color-gray-three);
+}

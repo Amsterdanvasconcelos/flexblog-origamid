@@ -1,0 +1,19 @@
+.l-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    
+    padding: 3.75rem 0.625rem;
+    border-top: 0.125rem solid var(--color-blue);
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+.l-about .c-card-text {
+    flex: 2 1 18.75rem;
+    padding-right: 2.5rem;
+}
+
+.l-about__img {
+    flex: 1 1 10rem;
+}

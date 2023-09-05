@@ -1,0 +1,28 @@
+.l-prices {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    
+    padding: 3.75rem;
+    background-color: var(--color-gray-four);
+}
+
+.l-prices .c-card-price {
+    flex: 1;
+}
+
+@media screen and (max-width: 500px) {
+    .l-prices {
+        padding: 3.75rem 0.625rem;
+    }
+
+    .l-prices .c-card-price:nth-child(3) {
+        order: -2;
+    }
+
+    .l-prices .c-card-price:nth-child(2) {
+        order: -1;
+    }
+}

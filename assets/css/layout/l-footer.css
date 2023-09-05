@@ -1,0 +1,15 @@
+.l-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0.625rem;
+    background-color: var(--color-blue);
+    height: 12.5rem;
+}
+
+.l-footer__copyright {
+    color: var(--color-dark-blue);
+    font-family: var(--font-main);
+    font-size: 2.25rem;
+}

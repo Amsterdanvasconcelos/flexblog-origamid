@@ -1,0 +1,77 @@
+.c-card-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    border: 0.25rem solid var(--color-white);
+    max-width: 400px;
+    min-width: 260px;
+}
+
+.c-card-price .c-title {
+    margin-top: 1.25rem;
+}
+
+.c-card-price__value {
+    display: block;
+    padding: 0.625rem 0 0.3125rem 0;
+    border-top: 0.25rem solid var(--color-white);
+    border-bottom: 0.25rem solid var(--color-white);
+    margin: 0 auto;
+    
+    max-width: 18.75rem;
+    width: 100%;
+
+    color: var(--color-gray-one);
+    font-family: var(--font-main);
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.c-card-price__value sup {
+    font-size: 1.5rem;
+}
+
+.c-card-price__benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+
+    width: 100%;
+    
+    color: var(--color-gray-two);
+    font-family: var(--font-main);
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.c-card-price__benefit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.c-card-price__benefit::after {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    background-color: var(--color-blue);
+    height: 6px;
+    width: 6px;
+}
+
+.c-card-price__btn {
+    display: block;
+    padding: 15px 10px;
+    border: 0.25rem solid var(--color-gray-one);
+    width: 100%;
+    color: var(--color-gray-one);
+    font-family: var(--font-main);
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Gooogle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <!-- Base -->
+    <link rel="stylesheet" href="assets/css/base/reset.css">
+    <link rel="stylesheet" href="assets/css/base/root.css">
+    <!-- Layout -->
+    <link rel="stylesheet" href="assets/css/layout/l-superinfo.css">
+    <link rel="stylesheet" href="assets/css/layout/l-header.css">
+    <link rel="stylesheet" href="assets/css/layout/l-about.css">
+    <link rel="stylesheet" href="assets/css/layout/l-products.css">
+    <link rel="stylesheet" href="assets/css/layout/l-prices.css">
+    <link rel="stylesheet" href="assets/css/layout/l-quality.css">
+    <link rel="stylesheet" href="assets/css/layout/l-newslatter.css">
+    <link rel="stylesheet" href="assets/css/layout/l-footer.css">
+    <!-- Components -->
+    <link rel="stylesheet" href="assets/css/components/c-logo.css">
+    <link rel="stylesheet" href="assets/css/components/c-navegation.css">
+    <link rel="stylesheet" href="assets/css/components/c-introduction.css">
+    <link rel="stylesheet" href="assets/css/components/c-title.css">
+    <link rel="stylesheet" href="assets/css/components/c-card-text.css">
+    <link rel="stylesheet" href="assets/css/components/c-card-price.css">
+    <link rel="stylesheet" href="assets/css/components/c-form.css">
+    
+    <title>FlexBlog</title>
+
+</head>
+<body>
+    
+    <div class="l-superinfo">
+        <div class="l-superinfo__content">
+            <p class="l-superinfo__item">Seg / Sex - 8:00 às 18:00</p>
+            <a class="l-superinfo__item" href="tel:+5521999999999">(+55) 85 99999-9999</a>
+            <address class="l-superinfo__item">Av. Ali Perto, 330, Botafogo - RJ</address>
+        </div>
+    </div>
+
+    <header class="l-header">
+        <div class="l-header__content">
+            <div><a class="c-logo" href="#">FlexBlog</a></div>
+            <nav class="c-navegation">
+                <ul class="c-navegation__itens"> 
+                    <li class="c-navegation__item"><a href="#about">Sobre</a></li>
+                    <li class="c-navegation__item"><a href="#products">Produtos</a></li>
+                    <li class="c-navegation__item"><a href="#prices">Preço</a></li>
+                    <li class="c-navegation__item"><a href="#quality">Qualidade</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 class="c-introduction c-title">Novos valores e<br> propriedades de CSS</h1>
+    
+    <section class="l-about" id="about">
+
+        <div class="c-card-text">
+            <h1 class="c-title">Sobre</h1>
+            <p class="c-card-text__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestias dolorum, harum iure optio debitis at numquam eveniet praesentium recusandae distinctio ea, provident placeat voluptatum. Quod voluptas eos sint minus?</p>
+            <p class="c-card-text__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, cum! Praesentium quaerat, optio est repellendus nemo consequuntur quasi quia neque magni culpa officiis id veniam iusto corporis repellat et sint!</p>
+        </div>
+
+        <div class="l-about__img">
+            <img src="assets/images/sobre1.jpg" alt="Sobre 1">
+        </div>
+
+        <div class="l-about__img">
+            <img src="assets/images/sobre2.jpg" alt="Sobre 2">
+        </div>
+
+    </section>
+    
+    <section class="l-products" id="products">
+
+        <h1 class="c-title">Produtos</h1>
+
+        <div class="l-products__products">
+
+            <div class="l-products__card l-products__card--purple">
+                <h2 class="c-title c-title--gray-light">Purple</h2>
+                <img src="assets/images/produtos1.jpg" alt="Produto 1">
+            </div>
+
+            <div class="l-products__card l-products__card--pink">
+                <h2 class="c-title c-title--gray-light">Pink</h2>
+                <img src="assets/images/produtos2.jpg" alt="Produto 2">
+            </div>
+
+            <div class="l-products__card l-products__card--blue">
+                <h2 class="c-title c-title--gray-light">Blue</h2>
+                <img src="assets/images/produtos3.jpg" alt="Produto 3">
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="l-prices" id="prices">
+
+        <div class="c-card-price"> 
+
+            <h2 class="c-title c-title--gray-light">Cobre</h2> 
+
+            <span class="c-card-price__value"><sup>R$</sup>19</span>
+
+            <ul class="c-card-price__benefits">
+                <li class="c-card-price__benefit">Planos Ilimitados</li>
+                <li class="c-card-price__benefit">Acesso Restrito</li>
+                <li class="c-card-price__benefit">Conteúdo Secreto</li>
+                <li class="c-card-price__benefit">Suporte 24h</li>
+            </ul>
+
+            <a href="#" class="c-card-price__btn">Comprar</a>
+            
+        </div>
+
+        <div class="c-card-price"> 
+
+            <h2 class="c-title c-title--gray-light">Prata</h2> 
+
+            <span class="c-card-price__value"><sup>R$</sup>39</span>
+
+            <ul class="c-card-price__benefits">
+                <li class="c-card-price__benefit">Planos Ilimitados</li>
+                <li class="c-card-price__benefit">Acesso Restrito</li>
+                <li class="c-card-price__benefit">Conteúdo Secreto</li>
+                <li class="c-card-price__benefit">Suporte 24h</li>
+                <li class="c-card-price__benefit">Compra exclusiva</li>
+            </ul>
+
+            <a href="#" class="c-card-price__btn">Comprar</a>
+            
+        </div>
+
+        <div class="c-card-price"> 
+
+            <h2 class="c-title c-title--gray-light">Ouro</h2> 
+
+            <span class="c-card-price__value"><sup>R$</sup>79</span>
+
+            <ul class="c-card-price__benefits">
+                <li class="c-card-price__benefit">Planos Ilimitados</li>
+                <li class="c-card-price__benefit">Acesso Restrito</li>
+                <li class="c-card-price__benefit">Conteúdo Secreto</li>
+                <li class="c-card-price__benefit">Suporte 24h</li>
+                <li class="c-card-price__benefit">Compra exclusiva</li>
+                <li class="c-card-price__benefit">Download dos Itens</li>
+            </ul>
+
+            <a href="#" class="c-card-price__btn">Comprar</a>
+            
+        </div>
+
+    </section>
+
+    <section class="l-quality" id="quality">
+
+        <div class="c-card-text">
+            <h2 class="c-title c-title--gray-light">Inteligente</h2>
+            <p class="c-card-text__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur enim reiciendis, quidem sint distinctio, eum unde quos, velit ipsam sit ex. Dolore nemo aliquam excepturi eveniet, similique quis numquam cum!</p>
+        </div>
+        <div class="c-card-text">
+            <h2 class="c-title c-title--gray-light">Compacto</h2>
+            <p class="c-card-text__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur enim reiciendis, quidem sint distinctio, eum unde quos, velit ipsam sit ex. Dolore nemo aliquam excepturi eveniet, similique quis numquam cum!</p>
+        </div>
+        <div class="c-card-text">
+            <h2 class="c-title c-title--gray-light">Econômico</h2>
+            <p class="c-card-text__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur enim reiciendis, quidem sint distinctio, eum unde quos, velit ipsam sit ex. Dolore nemo aliquam excepturi eveniet, similique quis numquam cum!</p>
+        </div>
+        <div class="c-card-text">
+            <h2 class="c-title c-title--gray-light">Transparente</h2>
+            <p class="c-card-text__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur enim reiciendis, quidem sint distinctio, eum unde quos, velit ipsam sit ex. Dolore nemo aliquam excepturi eveniet, similique quis numquam cum!</p>
+        </div>
+        <div class="c-card-text">
+            <h2 class="c-title c-title--gray-light">Opaco</h2>
+            <p class="c-card-text__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur enim reiciendis, quidem sint distinctio, eum unde quos, velit ipsam sit ex. Dolore nemo aliquam excepturi eveniet, similique quis numquam cum!</p>
+        </div>
+        <div class="c-card-text">
+            <h2 class="c-title c-title--gray-light">Sustentável</h2>
+            <p class="c-card-text__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur enim reiciendis, quidem sint distinctio, eum unde quos, velit ipsam sit ex. Dolore nemo aliquam excepturi eveniet, similique quis numquam cum!</p>
+        </div>
+        
+    </section>
+
+    <section class="l-newslatter">
+
+        <div class="c-card-text">
+            <h1 class="c-title">Newslatter</h1>
+            <p class="c-card-text__description">Assine e fique por dentro<br> das novidades</p>
+        </div>
+
+        <form class="c-form">
+
+            <input class="c-form__input" type="email" placeholder="Seu e-mail">
+            <button class="c-form__button" type="submit">Assinar</button>
+            
+        </form>
+
+    </section>
+
+    <footer class="l-footer">
+
+        <p class="l-footer__copyright">FlexBlog &copy; Todos os direitos reservados.</p>
+        
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+.l-quality {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem 1.25rem;
+    
+    padding: 0.625rem;
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+.l-quality .c-card-text {
+    flex: 1 1 18.75rem;   
+}
+
+.l-quality .c-card-text .c-title {
+    display: flex;
+    gap: 0.9375rem;
+    
+    margin-bottom: 1.25rem;
+    font-size: 2.5rem;
+}
+
+.l-quality .c-card-text .c-title::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 10px;
+}
+
+.l-quality .c-card-text:nth-of-type(3n+1) .c-title::before {
+    background-color: #ae81ff;
+}
+
+.l-quality .c-card-text:nth-of-type(3n+2) .c-title::before {
+    background-color: #f9265e;
+}
+
+.l-quality .c-card-text:nth-of-type(3n+3) .c-title::before {
+    background-color: #66d9eb;
+}

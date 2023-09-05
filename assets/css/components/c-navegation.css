@@ -1,0 +1,23 @@
+.c-navegation {
+    /* background-color: rgb(239, 119, 119); */
+    margin-right: -10px;
+}
+
+.c-navegation__itens {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.625rem 1.25rem;
+}
+
+.c-navegation__item a {
+    padding: 0.3125rem 0.625rem;
+    color: var(--color-white);
+    font-family: var(--font-main);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.c-navegation__item a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.l-header {
+    background-color: var(--color-blue);
+}
+
+.l-header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    
+    padding: 0.9375rem 0.625rem;
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+.l-header__content .c-logo {
+    font-size: 2.25rem;
+}
